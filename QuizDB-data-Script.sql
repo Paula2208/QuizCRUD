@@ -1,0 +1,175 @@
+use QuizDB;
+
+insert into municipio(idMunicipio)
+values (109);
+
+insert into dependencia (idDependencia)
+values 
+	(110),
+	(120),
+	(130),
+	(140),
+	(150),
+	(160),
+	(170),
+	(180),
+	(190),
+	(200),
+	(210),
+	(220),
+	(230),
+	(240),
+	(250),
+	(260),
+	(270),
+	(280),
+	(290),
+	(300),
+	(310),
+	(320),
+	(330),
+	(340),
+	(350),
+	(360),
+	(370),
+	(380),
+	(390),
+	(400);
+    
+insert into tipoDocumento(idTipoDocumento)
+values 
+	(1),
+    (2),
+    (3),
+    (4),
+    (5),
+    (6),
+    (7);
+	
+
+insert into tipoPersona(idTipoPersona)
+values
+	(3),
+	(9),
+    (33),
+    (159);
+	
+
+insert into cargo(idCargo)
+values
+	(3),
+	(1148),
+    (1204),
+    (1165),
+    (8),
+    (1137),
+    (1269),
+    (1210),
+    (23),
+    (1127),
+    (1108),
+    (1214),
+    (1200),
+    (1383),
+    (35),
+	(1201);
+	
+insert into profesion(idProfesion)
+values
+	(82),
+    (86),
+    (83),
+    (6),
+    (81),
+    (90),
+    (79),
+    (98),
+    (7),
+    (8);
+	
+insert into estadoUsuario(idEstadoUsuario)
+values
+	(1),
+    (4),
+    (5),
+    (6);
+	
+insert into tipoUsuarioSistema(idTipoUsuarioSistema)
+values (1);
+
+insert into grupoSanguineo(idGrupoSanguineo)
+values
+	(1),
+    (2),
+    (5),
+    (7),
+    (9);
+	
+	
+	
+insert into persona (noDocumento, nombres, apellidos, sexo, email, fechaNacimento, lugarExp, direccion, idMunicipioOrigen, idMunicipioResidencia, idTipoDocumento, idGrupoSanguineo, idProfesion, telDirecto, telResidencia)
+values 
+(310774656,"ELIZABETH","NARVAEZ","F","leguiz@unal.edu.co","2000-01-01","BOGOTA","Carrera 5 # 9-03",109,109,6,9,82,NULL,NULL),
+(116646462,"JOSE JAVIER","GUTIERREZ LOZANO","M","buitr@unal.edu.co","2000-01-01","BOGOTA","Carrera 5 # 9-03",109,109,7,7,86,NULL,NULL),
+(315227214,"YALLY","VARGAS GOMEZ","F","ch@unal.edu.co","2000-01-01","BOGOTA","Calle 100 No. 11B-44",109,109,2,7,83,NULL,NULL),
+(6085079353,"DIANA PAOLA","AMAYA GUTIERREZ","F","higuer@unal.edu.co","2000-01-01","IBAGUE","Calle 100 No. 11B-45",109,109,5,9,83,NULL,NULL),
+(312306450,"OLGA LUCIA","MONTAÑA SERRATO","F","s@unal.edu.co","2000-01-01","IBAGUE","Calle 100 No. 11B-46",109,109,6,1,6,NULL,NULL),
+(35871846,"ELIZABETH","MOYANO LARA","M","bl@unal.edu.co","2000-01-01","IBAGUE","Calle 100 No. 11B-47",109,109,7,9,81,NULL,NULL),
+(479161860,"MARIA DERLY","ROMERO BERNAL","M","bej@unal.edu.co","2000-01-01","IBAGUE","Calle 100 No. 11B-48",109,109,2,5,90,NULL,NULL),
+(478177680,"ROSALBA","ROJAS PINZON","M","asdf@unal.edu.co","2000-01-01","IBAGUE","Transversal 19A No. 101-10",109,109,5,1,86,NULL,NULL),
+(311269050,"MARIA GILMA","AGUIRRE JUNCO","F","fdsa@unal.edu.co","2000-01-01","IBAGUE","Transversal 19A No. 101-11",109,109,6,1,6,NULL,NULL),
+(43057080,"MARYURI","BARBOSA NIÑO","M","c@unal.edu.co","2000-01-01","IBAGUE","Transversal 19A No. 101-12",109,109,7,9,90,NULL,NULL),
+(316624608,"LUIS POMPILIO","MENENDEZ OLIVARES","F","bern@unal.edu.co","2000-01-01","","Transversal 19A No. 101-13",109,109,2,5,90,NULL,NULL),
+(477957636,"MANUEL ENRIQUE","ROZO SILVA","M","b@unal.edu.co","2000-01-01","BOGOTA","Carrera 11 No. 93-53 Oficina 302",109,109,5,1,86,NULL,NULL),
+(479698044,"GIOVANNY ANTONIO","LEON GAITAN","M","m@unal.edu.co","2000-01-01","BOGOTÁ","Carrera 11 No. 93-53 Oficina 303",109,109,6,1,86,NULL,NULL),
+(482109540,"MIGUEL ARTURO","ROMERO CUELLAR","M","mes@unal.edu.co","2000-01-01","","Carrera 11 No. 93-53 Oficina 304",109,109,7,7,86,NULL,NULL),
+(481382592,"DANIEL ISAURO","ROZO SILVA","M","ver@unal.edu.co","2000-01-01","","Calle 81 No. 7-71",109,109,2,1,7,NULL,NULL),
+(25781850,"LUIS RAMON","LEGUIZAMON GUERRERO","M","n@unal.edu.co","2000-01-01","","Calle 81 No. 7-72",109,109,5,1,81,NULL,NULL),
+(116949012,"PEDRO","BUITRAGO MENDOZA","M","gutierrez loz@unal.edu.co","2000-01-01","","Calle 81 No. 7-73",109,109,6,7,79,NULL,NULL),
+(475592442,"JOSE ALFREDO","CHAVEZ AREVALO","M","v@unal.edu.co","2000-01-01","","Calle 81 No. 7-74",109,109,7,7,79,NULL,NULL),
+(115289100,"JAIME","HIGUERA RODRIGUEZ","M","qret@unal.edu.co","2000-01-01","","Calle 40A No. 13-09 Piso 16",109,109,6,7,86,NULL,NULL),
+(485373810,"VICTOR HUGO","SACRISTAN RAMIREZ","M","mont@unal.edu.co","2000-01-01","BOGOTA D.C. - CUNDINAMARCA","Calle 40A No. 13-09 Piso 17",109,109,7,7,86,NULL,NULL),
+(6366900,"HENRY YAMEL","BLANCO BLANCO","M","moy@unal.edu.co","2000-01-01","GUACAMAYAS","Calle 40A No. 13-09 Piso 18",109,109,2,9,98,NULL,NULL),
+(482252880,"JOSE EULISES","BEJARANO BEJARANO","M","romero bern@unal.edu.co","2000-01-01","GACHETA","Calle 40A No. 13-09 Piso 19",109,109,5,1,8,NULL,NULL),
+(237827118,"ELCIA MARINA","ARIAS FORERO","F","roj@unal.edu.co","2000-01-01","BOGOTA D.C.","Calle 26 No. 4A-45 Piso 7",109,109,6,2,8,NULL,NULL),
+(122997102,"ELFA YANET","ALBERTO ROJAS","F","trqwe@unal.edu.co","2000-01-01","DEL COLEGIO","Calle 26 No. 4A-45 Piso 8",109,109,7,7,8,NULL,NULL),
+(213079344,"RODRIGO","CAMARGO LOPEZ","F","b@unal.edu.co","2000-01-01","SUBA","Carrera 9 No. 73-44 Piso 4, Edificio Fiducafé",109,109,2,7,8,NULL,NULL),
+(250742646,"ANA RUTH","BERNAL ARIZA","F","menendez oliv@unal.edu.co","2000-01-01","BOGOTA","Carrera 9 No. 73-44 Piso 4, Edificio Fiducafé",109,109,5,7,8,NULL,NULL),
+(309509442,"LARRY FRANCISCO","BARRERA HERNANDEZ","F","rozo silv@unal.edu.co","2000-01-01","BOGOTA","Carrera 9 No. 73-44 Piso 4, Edificio Fiducafé",109,109,6,7,8,NULL,NULL),
+(309753006,"CAROL JOANNA","MARTIN ALDANA","F","leon g@unal.edu.co","2000-01-01","BOGOTA","Carrera 9 No. 73-44 Piso 4, Edificio Fiducafé",109,109,7,7,8,NULL,NULL),
+(394499724,"MANUEL ENRIQUE","MESA MARIN","F","romero cuell@unal.edu.co","2000-01-01","IBAGUE","Calle 93 No. 14-20 Piso 8",109,109,2,7,8,NULL,NULL),
+(481601610,"LUIS POMPILIO","VERA MARTINEZ","M","rozo silv@unal.edu.co","2000-01-01","BOGOTA","Calle 93 No. 14-20 Piso 9",109,109,5,7,8,NULL,NULL);
+
+
+INSERT INTO empleado(idEmpleado, NoDocumento, fotoEmpleado, fechaIngresoEmpresa, EPS, AFP, idTipoPersona, idTipoUsuarioSistema, idEstadoUsuario, idCargo, idDependencia, codInterno, noTarjeta, NoTarjetaTM, telInterno, activo, fechaRegistro, fechaVencimiento, microondas, promedio)
+VALUES
+(9, 310774656, '310774656.jpg', '2020-03-14', 'COMPENSAR E.P.S.', 310774656, 9, 1, 1, 1148, 110, NULL, 310774656, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(12, 116646462, '116646462.jpg', '2020-03-14', 'E.P.S. FAMISANAR LTDA.', 116646462, 9, 1, 1, 1201, 120, NULL, 116646462, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(13, 315227214, '315227214.jpg', '2020-03-14', 'E.P.S. SANITAS S.A.', 315227214, 9, 1, 1, 1165, 130, NULL, 315227214, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(14, 6085079353, '6085079353.jpg', '2020-03-14', 'EPS SERVICIO OCCIDENTAL DE SALUD S.A.', 6085079353, 9, 1, 1, 1165, 140, NULL, 6085079353, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(16, 312306450, '312306450.jpg', '2020-03-14', 'EPS Y MEDICINA PREPAGADA SURAMERICANA S.A.', 312306450, 33, 1, 1, 8, 150, NULL, 312306450, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(18, 35871846, '35871846.jpg', '2020-03-14', 'NUEVA EPS S.A.', 35871846, 9, 1, 1, 1137, 160, NULL, 35871846, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(19, 479161860, '479161860.jpg', '2020-03-14', 'SALUD TOTAL S.A. E.P.S.', 479161860, 159, 1, 6, 1269, 170, NULL, 479161860, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(21, 478177680, '478177680.jpg', '2020-03-14', 'SALUDVIDA S.A. E.P.', 478177680, 9, 1, 1, 1210, 180, NULL, 478177680, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(22, 311269050, '311269050.jpg', '2020-03-14', 'COMPENSAR E.P.S.', 311269050, 33, 1, 1, 3, 190, NULL, 311269050, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(25, 43057080, '43057080.jpg', '2020-03-14', 'E.P.S. FAMISANAR LTDA.', 43057080, 159, 1, 5, 1269, 200, NULL, 43057080, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(27, 316624608, '316624608.jpg', '2020-03-14', 'E.P.S. SANITAS S.A.', 316624608, 159, 1, 6, 1269, 210, NULL, 316624608, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(29, 477957636, '477957636.jpg', '2020-03-14', 'EPS SERVICIO OCCIDENTAL DE SALUD S.A.', 477957636, 9, 1, 1, 1210, 220, NULL, 477957636, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(30, 479698044, '479698044.jpg', '2020-03-14', 'EPS Y MEDICINA PREPAGADA SURAMERICANA S.A.', 479698044, 9, 1, 1, 1210, 230, NULL, 479698044, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(31, 482109540, '482109540.jpg', '2020-03-14', 'NUEVA EPS S.A.', 482109540, 9, 1, 1, 1210, 240, NULL, 482109540, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(32, 481382592, '481382592.jpg', '2020-03-14', 'SALUD TOTAL S.A. E.P.S.', 481382592, 9, 1, 1, 23, 250, NULL, 481382592, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(33, 25781850, '25781850.jpg', '2020-03-14', 'SALUDVIDA S.A. E.P.', 25781850, 3, 1, 1, 1127, 260, NULL, 25781850, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(34, 116949012, '116949012.jpg', '2020-03-14', 'COMPENSAR E.P.S.', 116949012, 3, 1, 1, 1108, 270, NULL, 116949012, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(35, 475592442, '475592442.jpg', '2020-03-14', 'E.P.S. FAMISANAR LTDA.', 475592442, 3, 1, 1, 1108, 280, NULL, 475592442, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(36, 115289100, '115289100.jpg', '2020-03-14', 'E.P.S. SANITAS S.A.', 115289100, 9, 1, 4, 1214, 290, NULL, 115289100, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(37, 485373810, '485373810.jpg', '2020-03-14', 'EPS SERVICIO OCCIDENTAL DE SALUD S.A.', 485373810, 9, 1, 1, 1200, 300, NULL, 485373810, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(38, 6366900, '6366900.jpg', '2020-03-14', 'COMPENSAR E.P.S.', 6366900, 9, 1, 4, 1383, 310, NULL, 6366900, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(39, 482252880, '482252880.jpg', '2020-03-14', 'E.P.S. FAMISANAR LTDA.', 482252880, 9, 1, 1, 35, 320, NULL, 482252880, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(40, 237827118, '237827118.jpg', '2020-03-14', 'COMPENSAR E.P.S.', 237827118, 9, 1, 1, 35, 330, NULL, 237827118, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(43, 122997102, '122997102.jpg', '2020-03-14', 'E.P.S. FAMISANAR LTDA.', 122997102, 9, 1, 1, 35, 340, NULL, 122997102, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(45, 213079344, '213079344.jpg', '2020-03-14', 'E.P.S. SANITAS S.A.', 213079344, 9, 1, 1, 35, 350, NULL, 213079344, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(46, 250742646, '250742646.jpg', '2020-03-14', 'EPS SERVICIO OCCIDENTAL DE SALUD S.A.', 250742646, 9, 1, 1, 35, 360, NULL, 250742646, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(47, 309509442, '309509442.jpg', '2020-03-14', 'EPS Y MEDICINA PREPAGADA SURAMERICANA S.A.', 309509442, 9, 1, 4, 35, 370, NULL, 309509442, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(48, 309753006, '309753006.jpg', '2020-03-14', 'NUEVA EPS S.A.', 309753006, 9, 1, 4, 35, 380, NULL, 309753006, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(49, 394499724, '394499724.jpg', '2020-03-14', 'SALUD TOTAL S.A. E.P.S.', 394499724, 9, 1, 1, 35, 390, NULL, 394499724, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL),
+(50, 481601610, '481601610.jpg', '2020-03-14', 'SALUDVIDA S.A. E.P.', 481601610, 9, 1, 1, 35, 400, NULL, 481601610, NULL, NULL, 'S', '2014-05-08', '2024-03-14', NULL, NULL);
