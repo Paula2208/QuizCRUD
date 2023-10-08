@@ -1,100 +1,100 @@
 
 --¿Cuáles son los empleados con IdTipoPersona igual a 3?
 SELECT *
-FROM QuizDB.empleado
+FROM empleado
 WHERE idTipoPersona = 3;
 
 --¿Cuáles son los empleados con IdGrupoSanguineo igual a 9?
 
 SELECT e.*
-FROM QuizDB.empleado AS e
-JOIN QuizDB.persona AS p ON e.NoDocumento = p.noDocumento
+FROM empleado AS e
+JOIN persona AS p ON e.NoDocumento = p.noDocumento
 WHERE p.idGrupoSanguineo = 9;
 
 --¿Cuáles son los empleados con IdEstadoUsuario igual a 1?
 SELECT *
-FROM QuizDB.empleado
+FROM empleado
 WHERE idEstadoUsuario = 1;
 
 --¿Cuáles son los empleados con IdTipoUsuarioSistema igual a 1?
 SELECT *
-FROM QuizDB.empleado
+FROM empleado
 WHERE idTipoUsuarioSistema = 1;
 
 --¿Cuáles son los empleados con IdCargo igual a 1148?
 SELECT *
-FROM QuizDB.empleado
+FROM empleado
 WHERE idCargo = 1148;
 
 --¿Cuáles son los empleados con IdProfesion igual a 1?
 SELECT e.*
-FROM QuizDB.empleado AS e
-JOIN QuizDB.persona AS p ON e.NoDocumento = p.noDocumento
+FROM empleado AS e
+JOIN persona AS p ON e.NoDocumento = p.noDocumento
 WHERE p.idProfesion = 1;
 
 --¿Cuáles son los empleados con IdDependencia igual a 30775?
 SELECT *
-FROM QuizDB.empleado
+FROM empleado
 WHERE idDependencia = 30775;
 
 --¿Cuáles son los empleados con IdTipoDocumento igual a 1?
 SELECT e.*
-FROM QuizDB.empleado AS e
-JOIN QuizDB.persona AS p ON e.NoDocumento = p.noDocumento
+FROM empleado AS e
+JOIN persona AS p ON e.NoDocumento = p.noDocumento
 WHERE p.idTipoDocumento = 1;
 
 --¿Cuáles son los empleados con FechaRegistro igual a 2014-05-08 12:25:45.343?
 SELECT *
-FROM QuizDB.empleado
+FROM empleado
 WHERE fechaRegistro = '2014-05-08 12:25:45.343';
 
 --¿Cuáles son los empleados con FechaVencimiento igual a 2024-03-14 03:02:27.000?
 SELECT *
-FROM QuizDB.empleado
+FROM empleado
 WHERE fechaVencimiento = '2024-03-14 03:02:27.000';
 
 --¿Cuántos empleados hay en la base de datos?
 SELECT COUNT(*)
-FROM QuizDB.empleado;
+FROM empleado;
 
 --¿Cuáles son los IdTipoPersona de los empleados?
 SELECT DISTINCT idTipoPersona
-FROM QuizDB.empleado;
+FROM empleado;
 
 --¿Cuáles son los IdCargo de los empleados?
 SELECT DISTINCT idCargo
-FROM QuizDB.empleado;
+FROM empleado;
 
 --¿Cuáles son los IdProfesion de los empleados?
 SELECT DISTINCT p.idProfesion
-FROM QuizDB.empleado AS e
-JOIN QuizDB.persona AS p ON e.NoDocumento = p.noDocumento;
+FROM empleado AS e
+JOIN persona AS p ON e.NoDocumento = p.noDocumento;
 
 --¿Cuáles son los IdEstadoUsuario de los empleados?
 SELECT DISTINCT idEstadoUsuario
-FROM QuizDB.empleado;
+FROM empleado;
 
 --¿Cuáles son los IdTipoUsuarioSistema de los empleados?
 SELECT DISTINCT idTipoUsuarioSistema
-FROM QuizDB.empleado;
+FROM empleado;
 
 --¿Cuáles son los IdGrupoSanguineo de los empleados?
 SELECT DISTINCT p.idGrupoSanguineo
-FROM QuizDB.empleado AS e
-JOIN QuizDB.persona AS p ON e.NoDocumento = p.noDocumento;
+FROM empleado AS e
+JOIN persona AS p ON e.NoDocumento = p.noDocumento;
 
 --¿Cuáles son los NoDocumento de los empleados?
 SELECT DISTINCT NoDocumento
-FROM QuizDB.empleado;
+FROM empleado;
 
 --¿Cuáles son los LugarExp de los empleados?
 SELECT DISTINCT p.lugarExp
-FROM QuizDB.empleado AS e
-JOIN QuizDB.persona AS p ON e.NoDocumento = p.noDocumento;
+FROM empleado AS e
+JOIN persona AS p ON e.NoDocumento = p.noDocumento;
 
 --¿Cuáles son los CodInterno de los empleados?
 SELECT DISTINCT codInterno
-FROM QuizDB.empleado;
+FROM empleado;
 
 
 --SELECT IdEmpleado, Apellidos, Nombres, Salario FROM Empleado WHERE IdTipoPersona = 3 GROUP BY IdEmpleado
